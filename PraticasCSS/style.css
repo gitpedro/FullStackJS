@@ -1,6 +1,38 @@
+/*
+    Seletores:
+        https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Selectors        
+*/
+/*Selector por tag: */
 li{
     color:green;
 }
-h1{
-    color:purple;
+/*Seletor universal*/
+*{
+    background-color: darkblue;
 }
+/*Seletor id*/
+#identified {
+    color: brown;
+    border: 1px solid green;        
+}
+/*Seletor classe*/
+.metis {
+    color: yellow;
+}
+/*Seletor atributo*/
+/* <li> elements whose class attribute contains the word "logo" */
+li[class~="logo"]{
+    background-color: rgb(141, 67, 214);
+    border: 5 solid black;
+  }
+/*Seletor irmãos adjacentes*/
+h1 + h4{
+    background: cadetblue;
+}
+/*Seletor descendentes*/
+ul li{
+    list-style-type: circle;
+}
+
+
+
