@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Cadastro da liga dos astronautas</h1>
+
+    <label for="name">Nome :</label>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <label for="email">Email :</label>
+    <input type="email" id="email">
+    -
+    <label for="pw">Password :</label>
+    <input type="password" id="pw">
+    <br>
+    <br>
+    <label for="dn">Data de nascimento :</label>
+    <input type="date" id="dn">
+    -
+    <label for="ft">Foto :</label>
+    <input type="file" id="ft">
+
+    <br><br>
+
+    <label for="nc">Nacionalidade :</label>
+    <input list="nacionalidade" id="nc">
+    <datalist id="nacionalidade">
+        <option value="Russia"></option>
+        <option value="Estados Unidos"></option>
+        <option value="Brasil"></option>
+    </datalist>    
+    -
+    <label>Genero :</label>
+    <label for="F">F</label>
+    <input type="radio" name="genero" value="F">
+    <label for="M">M</label>
+    <input type="radio" name="genero" value="M">
+    
+    <br><br>
+
+    <p>Suas principais qualidades: </p>
+    <label for="int">Inteligencia</label>
+    <input type="checkbox" id="int">
+    <label for="rs">Resiliência</label>
+    <input id="rs" type="checkbox">
+    <label for="pf">Preparo Fisico</label>
+    <input id="pf" type="checkbox">
+    <label for="ed">Educação</label>
+    <input id="de" type="checkbox">
+</body>
+</html>
