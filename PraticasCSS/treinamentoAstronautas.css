@@ -1,0 +1,22 @@
+*{
+    background-color: #2c3e50;
+    color:white;    
+}
+
+header {
+    color:white;    
+}
+
+h3 > strong{
+    color:#f1c40f;
+}
+
+div[class^="dia"] h2{
+    background-color: #f1c40f;
+    color: black;
+    border: 2px solid black
+}
+
+ul[class="astronomia"] li:nth-child(2){
+    color: #e74c3c;
+}

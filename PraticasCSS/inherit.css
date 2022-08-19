@@ -1,0 +1,14 @@
+div{
+    border: 2px solid orange;
+    background-color: black;
+    color: white;
+}
+
+div ul{
+    border: inherit;
+    background-color: inherit;
+}
+
+div ul li{
+    color: orangered;
+}

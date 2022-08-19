@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Silkscreen&family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    /*font-size: 38px;*/
+    font-weight: 400;
+    line-height: 2;
+}
+
+h1{
+    font-family: 'Orbitron', 'Arial', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#p1{
+    font-family: 'Silkscreen';    
+}
+
+#p2{
+    font-family: 'Space Mono', Courier, monospace;
+}
+
+#p3{
+    font-family: 'Space Mono';
+    font-style: italic; 
+}
