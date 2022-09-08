@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#iconrock {
+    width: 40px;
+}
+
+#logo {
+    width: 200px;
+}
+
+.containerHeader {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.buttonsHeader {
+    background-color: black;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.buttonHeader {
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.buttonHeader:hover {
+    border-color: #ff0044;
+}
